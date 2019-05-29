@@ -53,7 +53,7 @@ Use the `Module::dashboardNavItems()` method of the module to generate a navigat
 
     <?php
         echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'votes' => ['class' => 'navbar-nav navbar-right'],
             'label' => 'Modules',
             'items' => [
                 Yii::$app->getModule('votes')->dashboardNavItems(),
@@ -63,4 +63,5 @@ Use the `Module::dashboardNavItems()` method of the module to generate a navigat
     ?>
 
 # Status and version [in progress development]
+* v.0.0.2 - Added module name and description, translations. Routing fix.
 * v.0.0.1 - Added bootstrap, base module and base migrations

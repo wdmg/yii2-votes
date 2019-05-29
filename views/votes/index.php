@@ -4,10 +4,10 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
-/* @var $searchModel wdmg\likes\models\LikesSearch */
+/* @var $searchModel wdmg\votes\models\VotesSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = Yii::t('app/modules/likes', 'Likes');
+$this->title = $this->context->module->name;
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::encode($this->title) ?> <small class="text-muted pull-right">[v.<?= $this->context->module->version ?>]</small>
     </h1>
 </div>
-<div class="options-index">
+<div class="votes-index">
     <?php Pjax::begin(); ?>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -29,7 +29,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'user_ip',
             'entity_id',
             'target_id',
-            'is_like',
             'created_at',
             'updated_at',
         ],
