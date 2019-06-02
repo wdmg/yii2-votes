@@ -6,7 +6,7 @@ namespace wdmg\votes;
  * Yii2 Votes
  *
  * @category        Module
- * @version         0.0.3
+ * @version         0.0.4
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/yii2-votes
  * @copyright       Copyright (c) 2019 W.D.M.Group, Ukraine
@@ -29,7 +29,7 @@ class Module extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $defaultRoute = 'default';
+    public $defaultRoute = "votes/index";
 
     /**
      * @var string the prefix for routing of module
@@ -54,7 +54,7 @@ class Module extends \yii\base\Module
     /**
      * @var string the module version
      */
-    private $version = "0.0.3";
+    private $version = "0.0.4";
 
     /**
      * @var integer, priority of initialization
@@ -126,8 +126,8 @@ class Module extends \yii\base\Module
         ];
 
         // Name and description translation of module
-        $this->name = Yii::t('app/modules/users', $this->name);
-        $this->description = Yii::t('app/modules/users', $this->description);
+        $this->name = Yii::t('app/modules/votes', $this->name);
+        $this->description = Yii::t('app/modules/votes', $this->description);
     }
 
     public static function t($category, $message, $params = [], $language = null)
