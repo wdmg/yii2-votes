@@ -8,6 +8,7 @@ use wdmg\votes\models\VotesSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 
 /**
  * VotesController implements the CRUD actions for Votes model.
@@ -26,6 +27,15 @@ class VotesController extends Controller
                     'index' => ['get'],
                 ],
             ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'roles' => ['admin'],
+                        'allow' => true
+                    ],
+                ],
+            ]
         ];
     }
 
