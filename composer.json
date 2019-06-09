@@ -1,10 +1,10 @@
 {
   "name": "wdmg/yii2-votes",
-  "description": "User voting module for Yii2",
+  "description": "User voting module",
   "keywords": ["yii2", "yii2-votes", "votes", "vote", "voting", "wdmg"],
   "type": "yii2-extension",
   "license": "MIT",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/wdmg/yii2-votes",
   "support": {
     "source": "https://github.com/wdmg/yii2-votes",
