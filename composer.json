@@ -4,7 +4,7 @@
   "keywords": ["yii2", "yii2-votes", "votes", "vote", "voting", "wdmg"],
   "type": "yii2-extension",
   "license": "MIT",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "https://github.com/wdmg/yii2-votes",
   "support": {
     "source": "https://github.com/wdmg/yii2-votes",
@@ -28,6 +28,11 @@
   "autoload": {
     "psr-4": {
       "wdmg\\votes\\": ""
+    }
+  },
+  "extra": {
+    "options": {
+      "routePrefix": "admin"
     }
   }
 }
