@@ -7,7 +7,7 @@ namespace wdmg\votes\components;
  * Yii2 Votes
  *
  * @category        Component
- * @version         0.0.8
+ * @version         0.0.9
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/yii2-votes
  * @copyright       Copyright (c) 2019 W.D.M.Group, Ukraine
