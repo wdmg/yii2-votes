@@ -4,7 +4,7 @@
   "keywords": ["yii2", "yii2-votes", "votes", "vote", "voting", "wdmg"],
   "type": "yii2-extension",
   "license": "MIT",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "homepage": "https://github.com/wdmg/yii2-votes",
   "support": {
     "source": "https://github.com/wdmg/yii2-votes",
@@ -22,7 +22,7 @@
   ],
   "require": {
     "yiisoft/yii2": "^2.0.33",
-    "wdmg/yii2-base": "^1.1.6"
+    "wdmg/yii2-base": "^1.2.0"
   },
   "minimum-stability": "dev",
   "autoload": {

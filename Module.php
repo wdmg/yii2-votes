@@ -6,7 +6,7 @@ namespace wdmg\votes;
  * Yii2 Votes
  *
  * @category        Module
- * @version         0.0.9
+ * @version         0.0.10
  * @author          Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>
  * @link            https://github.com/wdmg/yii2-votes
  * @copyright       Copyright (c) 2019 - 2020 W.D.M.Group, Ukraine
@@ -46,7 +46,7 @@ class Module extends BaseModule
     /**
      * @var string the module version
      */
-    private $version = "0.0.9";
+    private $version = "0.0.10";
 
     /**
      * @var integer, priority of initialization
